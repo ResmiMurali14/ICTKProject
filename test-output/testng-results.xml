@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="16" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-16T16:46:59 IST" name="Suite" finished-at="2022-03-16T16:48:38 IST" duration-ms="99241">
+    <groups>
+    </groups>
+    <test started-at="2022-03-16T16:46:59 IST" name="Test" finished-at="2022-03-16T16:48:38 IST" duration-ms="99241">
+      <class name="com.studennrol.testscripts.LogoutPageTest">
+        <test-method signature="verifyBtnVisibility()[pri:1, instance:com.studennrol.testscripts.LogoutPageTest@660acfb]" started-at="2022-03-16T16:48:35 IST" name="verifyBtnVisibility" finished-at="2022-03-16T16:48:38 IST" duration-ms="3397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBtnVisibility -->
+      </class> <!-- com.studennrol.testscripts.LogoutPageTest -->
+      <class name="com.studennrol.testscripts.ApprovalPageTest">
+        <test-method signature="verifyPageUrl()[pri:1, instance:com.studennrol.testscripts.ApprovalPageTest@37313c65]" started-at="2022-03-16T16:47:38 IST" name="verifyPageUrl" finished-at="2022-03-16T16:47:43 IST" duration-ms="5240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageUrl -->
+        <test-method signature="approveBtnverify()[pri:2, instance:com.studennrol.testscripts.ApprovalPageTest@37313c65]" started-at="2022-03-16T16:47:43 IST" name="approveBtnverify" finished-at="2022-03-16T16:47:50 IST" duration-ms="6132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- approveBtnverify -->
+        <test-method signature="deleteBtnVerify()[pri:3, instance:com.studennrol.testscripts.ApprovalPageTest@37313c65]" started-at="2022-03-16T16:47:50 IST" name="deleteBtnVerify" finished-at="2022-03-16T16:47:56 IST" duration-ms="6174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBtnVerify -->
+      </class> <!-- com.studennrol.testscripts.ApprovalPageTest -->
+      <class name="com.studennrol.testscripts.EmployeesPageTest">
+        <test-method signature="verifyEmployeesPage()[pri:1, instance:com.studennrol.testscripts.EmployeesPageTest@465232e9]" started-at="2022-03-16T16:47:56 IST" name="verifyEmployeesPage" finished-at="2022-03-16T16:48:02 IST" duration-ms="6256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeesPage -->
+        <test-method signature="deleteBtnVerify()[pri:2, instance:com.studennrol.testscripts.EmployeesPageTest@465232e9]" started-at="2022-03-16T16:48:02 IST" name="deleteBtnVerify" finished-at="2022-03-16T16:48:09 IST" duration-ms="6482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBtnVerify -->
+        <test-method signature="editBtnVerify()[pri:2, instance:com.studennrol.testscripts.EmployeesPageTest@465232e9]" started-at="2022-03-16T16:48:09 IST" name="editBtnVerify" finished-at="2022-03-16T16:48:15 IST" duration-ms="6191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editBtnVerify -->
+      </class> <!-- com.studennrol.testscripts.EmployeesPageTest -->
+      <class name="com.studennrol.testscripts.SearchPageTest">
+        <test-method signature="verifysearchUrl()[pri:1, instance:com.studennrol.testscripts.SearchPageTest@7486b455]" started-at="2022-03-16T16:48:31 IST" name="verifysearchUrl" finished-at="2022-03-16T16:48:35 IST" duration-ms="3390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchUrl -->
+      </class> <!-- com.studennrol.testscripts.SearchPageTest -->
+      <class name="com.studennrol.testscripts.LoginPageTest">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.studennrol.testscripts.LoginPageTest@38145825]" started-at="2022-03-16T16:46:59 IST" name="onSetup" finished-at="2022-03-16T16:47:28 IST" duration-ms="29705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="verifyValidLogin()[pri:1, instance:com.studennrol.testscripts.LoginPageTest@38145825]" started-at="2022-03-16T16:47:28 IST" name="verifyValidLogin" finished-at="2022-03-16T16:47:38 IST" duration-ms="9742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+      </class> <!-- com.studennrol.testscripts.LoginPageTest -->
+      <class name="com.studennrol.testscripts.EmployeeUpdatePageTest">
+        <test-method signature="verrifyPageUrl()[pri:1, instance:com.studennrol.testscripts.EmployeeUpdatePageTest@23941fb4]" started-at="2022-03-16T16:48:15 IST" name="verrifyPageUrl" finished-at="2022-03-16T16:48:18 IST" duration-ms="3047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verrifyPageUrl -->
+        <test-method signature="updateBtnVerifyRollnull()[pri:3, instance:com.studennrol.testscripts.EmployeeUpdatePageTest@23941fb4]" started-at="2022-03-16T16:48:18 IST" name="updateBtnVerifyRollnull" finished-at="2022-03-16T16:48:31 IST" duration-ms="13305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBtnVerifyRollnull -->
+      </class> <!-- com.studennrol.testscripts.EmployeeUpdatePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
