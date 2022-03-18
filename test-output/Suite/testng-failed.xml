@@ -3,12 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.studennrol.testscripts.SearchPageTest">
+      <class name="com.studennrol.testscripts.EmployeeUpdatePageTest">
         <methods>
           <include name="onSetup"/>
-          <include name="verifysearchUrl"/>
+          <include name="updateBtnVerifvalid"/>
+          <include name="updateBtnVerifyemailnull"/>
+          <include name="updateBtnVerifyallfieldnull"/>
+          <include name="updateBtnVerifyNamenull"/>
         </methods>
-      </class> <!-- com.studennrol.testscripts.SearchPageTest -->
+      </class> <!-- com.studennrol.testscripts.EmployeeUpdatePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

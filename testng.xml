@@ -7,9 +7,8 @@
     <class name="com.studennrol.testscripts.ApprovalPageTest"/>
     <class name="com.studennrol.testscripts.EmployeesPageTest"/>
     <class name="com.studennrol.testscripts.EmployeeUpdatePageTest"/>
-    <class name="com.studennrol.testscripts.SearchPageTest"/>
     <class name="com.studennrol.testscripts.LogoutPageTest"/>
-      
- </classes>
+    
+  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

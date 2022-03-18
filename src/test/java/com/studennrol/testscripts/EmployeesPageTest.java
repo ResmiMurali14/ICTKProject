@@ -26,7 +26,7 @@ public class EmployeesPageTest  extends TestBase
     public void deleteBtnVerify() throws Exception
        {
        
-  	 objEmployees =new EmployeesPage();
+  	   objEmployees =new EmployeesPage();
        Thread.sleep(3000);
        objEmployees.deleteBtnCheck();
        }
@@ -36,8 +36,7 @@ public class EmployeesPageTest  extends TestBase
       public void editBtnVerify() throws Exception
          {
     	   objEmployees =new EmployeesPage();
-    	  
-           Thread.sleep(3000);
+    	   Thread.sleep(3000);
            objEmployees.editBtnCheck();
               
          }

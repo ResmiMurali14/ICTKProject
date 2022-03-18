@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">14 methods, 4 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.studennrol.testscripts.EmployeeUpdatePageTest" class="method navigator-link" hash-for-method="updateBtnVerifvalid">updateBtnVerifvalid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.studennrol.testscripts.EmployeeUpdatePageTest" class="method navigator-link" hash-for-method="updateBtnVerifyNamenull">updateBtnVerifyNamenull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.studennrol.testscripts.EmployeeUpdatePageTest" class="method navigator-link" hash-for-method="updateBtnVerifyallfieldnull">updateBtnVerifyallfieldnull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.studennrol.testscripts.EmployeeUpdatePageTest" class="method navigator-link" hash-for-method="updateBtnVerifyemailnull">updateBtnVerifyemailnull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -124,7 +153,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.studennrol.testscripts.EmployeeUpdatePageTest" class="method navigator-link" hash-for-method="updateBtnVerifyRollnull">updateBtnVerifyRollnull</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.studennrol.testscripts.EmployeeUpdatePageTest" class="method navigator-link" hash-for-method="updateBtnVerifyRollnull1">updateBtnVerifyRollnull1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -149,11 +178,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.studennrol.testscripts.SearchPageTest" class="method navigator-link" hash-for-method="verifysearchUrl">verifysearchUrl</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.studennrol.testscripts.EmployeeUpdatePageTest" class="method navigator-link" hash-for-method="verrifyPageUrl">verrifyPageUrl</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -169,6 +193,150 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.studennrol.testscripts.EmployeeUpdatePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateBtnVerifvalid">
+                  </a> <!-- updateBtnVerifvalid -->
+                  <span class="method-name">updateBtnVerifvalid</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;name&apos;]&quot;}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:22:46&apos;
+System info: host: &apos;LAPTOP-M5JHVHLN&apos;, ip: &apos;192.168.95.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3961e780773bd324c5d25ede2fd2b6
+*** Element info: {Using=xpath, value=//input[@name=&apos;name&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at com.studenrol.pages.EmployeeUpdatePage.setEmpName(EmployeeUpdatePage.java:31)
+	at com.studennrol.testscripts.EmployeeUpdatePageTest.updateBtnVerifvalid(EmployeeUpdatePageTest.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateBtnVerifyNamenull">
+                  </a> <!-- updateBtnVerifyNamenull -->
+                  <span class="method-name">updateBtnVerifyNamenull</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;name&apos;]&quot;}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:22:46&apos;
+System info: host: &apos;LAPTOP-M5JHVHLN&apos;, ip: &apos;192.168.95.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3961e780773bd324c5d25ede2fd2b6
+*** Element info: {Using=xpath, value=//input[@name=&apos;name&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at com.studenrol.pages.EmployeeUpdatePage.setEmpName(EmployeeUpdatePage.java:31)
+	at com.studennrol.testscripts.EmployeeUpdatePageTest.updateBtnVerifyNamenull(EmployeeUpdatePageTest.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateBtnVerifyallfieldnull">
+                  </a> <!-- updateBtnVerifyallfieldnull -->
+                  <span class="method-name">updateBtnVerifyallfieldnull</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;name&apos;]&quot;}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:22:46&apos;
+System info: host: &apos;LAPTOP-M5JHVHLN&apos;, ip: &apos;192.168.95.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3961e780773bd324c5d25ede2fd2b6
+*** Element info: {Using=xpath, value=//input[@name=&apos;name&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at com.studenrol.pages.EmployeeUpdatePage.setEmpNameNull(EmployeeUpdatePage.java:64)
+	at com.studennrol.testscripts.EmployeeUpdatePageTest.updateBtnVerifyallfieldnull(EmployeeUpdatePageTest.java:89)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateBtnVerifyemailnull">
+                  </a> <!-- updateBtnVerifyemailnull -->
+                  <span class="method-name">updateBtnVerifyemailnull</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;name&apos;]&quot;}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.0&apos;, revision: &apos;2ecb7d9a&apos;, time: &apos;2018-10-31T20:22:46&apos;
+System info: host: &apos;LAPTOP-M5JHVHLN&apos;, ip: &apos;192.168.95.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.13&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3961e780773bd324c5d25ede2fd2b6
+*** Element info: {Using=xpath, value=//input[@name=&apos;name&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at com.studenrol.pages.EmployeeUpdatePage.setEmpName(EmployeeUpdatePage.java:31)
+	at com.studennrol.testscripts.EmployeeUpdatePageTest.updateBtnVerifyemailnull(EmployeeUpdatePageTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -177,9 +345,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="updateBtnVerifyRollnull">
-                  </a> <!-- updateBtnVerifyRollnull -->
-                  <span class="method-name">updateBtnVerifyRollnull</span>
+                  <a name="updateBtnVerifyRollnull1">
+                  </a> <!-- updateBtnVerifyRollnull1 -->
+                  <span class="method-name">updateBtnVerifyRollnull1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -187,21 +355,6 @@
                   <a name="verrifyPageUrl">
                   </a> <!-- verrifyPageUrl -->
                   <span class="method-name">verrifyPageUrl</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.studennrol.testscripts.LogoutPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyBtnVisibility">
-                  </a> <!-- verifyBtnVisibility -->
-                  <span class="method-name">verifyBtnVisibility</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -238,21 +391,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.studennrol.testscripts.SearchPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifysearchUrl">
-                  </a> <!-- verifysearchUrl -->
-                  <span class="method-name">verifysearchUrl</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.studennrol.testscripts.EmployeesPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -275,6 +413,21 @@
                   <a name="verifyEmployeesPage">
                   </a> <!-- verifyEmployeesPage -->
                   <span class="method-name">verifyEmployeesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.studennrol.testscripts.LogoutPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBtnVisibility">
+                  </a> <!-- verifyBtnVisibility -->
+                  <span class="method-name">verifyBtnVisibility</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -310,7 +463,6 @@
       &lt;class name=&quot;com.studennrol.testscripts.ApprovalPageTest&quot;/&gt;
       &lt;class name=&quot;com.studennrol.testscripts.EmployeesPageTest&quot;/&gt;
       &lt;class name=&quot;com.studennrol.testscripts.EmployeeUpdatePageTest&quot;/&gt;
-      &lt;class name=&quot;com.studennrol.testscripts.SearchPageTest&quot;/&gt;
       &lt;class name=&quot;com.studennrol.testscripts.LogoutPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -325,7 +477,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (6 classes)</span>
+                <span class="test-name">Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -351,56 +503,68 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'updateBtnVerifyRollnull')
+data.setCell(0, 1, 'updateBtnVerifyemailnull')
 data.setCell(0, 2, 'com.studennrol.testscripts.EmployeeUpdatePageTest')
-data.setCell(0, 3, 13305);
+data.setCell(0, 3, 33670);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyValidLogin')
-data.setCell(1, 2, 'com.studennrol.testscripts.LoginPageTest')
-data.setCell(1, 3, 9742);
+data.setCell(1, 1, 'updateBtnVerifvalid')
+data.setCell(1, 2, 'com.studennrol.testscripts.EmployeeUpdatePageTest')
+data.setCell(1, 3, 33276);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'deleteBtnVerify')
-data.setCell(2, 2, 'com.studennrol.testscripts.EmployeesPageTest')
-data.setCell(2, 3, 6482);
+data.setCell(2, 1, 'updateBtnVerifyNamenull')
+data.setCell(2, 2, 'com.studennrol.testscripts.EmployeeUpdatePageTest')
+data.setCell(2, 3, 33184);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyEmployeesPage')
-data.setCell(3, 2, 'com.studennrol.testscripts.EmployeesPageTest')
-data.setCell(3, 3, 6256);
+data.setCell(3, 1, 'updateBtnVerifyallfieldnull')
+data.setCell(3, 2, 'com.studennrol.testscripts.EmployeeUpdatePageTest')
+data.setCell(3, 3, 33054);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'editBtnVerify')
-data.setCell(4, 2, 'com.studennrol.testscripts.EmployeesPageTest')
-data.setCell(4, 3, 6191);
+data.setCell(4, 1, 'verifyValidLogin')
+data.setCell(4, 2, 'com.studennrol.testscripts.LoginPageTest')
+data.setCell(4, 3, 22274);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'deleteBtnVerify')
-data.setCell(5, 2, 'com.studennrol.testscripts.ApprovalPageTest')
-data.setCell(5, 3, 6174);
+data.setCell(5, 1, 'updateBtnVerifyRollnull1')
+data.setCell(5, 2, 'com.studennrol.testscripts.EmployeeUpdatePageTest')
+data.setCell(5, 3, 10973);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'approveBtnverify')
 data.setCell(6, 2, 'com.studennrol.testscripts.ApprovalPageTest')
-data.setCell(6, 3, 6132);
+data.setCell(6, 3, 6358);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyPageUrl')
+data.setCell(7, 1, 'deleteBtnVerify')
 data.setCell(7, 2, 'com.studennrol.testscripts.ApprovalPageTest')
-data.setCell(7, 3, 5240);
+data.setCell(7, 3, 6347);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyBtnVisibility')
-data.setCell(8, 2, 'com.studennrol.testscripts.LogoutPageTest')
-data.setCell(8, 3, 3397);
+data.setCell(8, 1, 'verifyEmployeesPage')
+data.setCell(8, 2, 'com.studennrol.testscripts.EmployeesPageTest')
+data.setCell(8, 3, 6257);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifysearchUrl')
-data.setCell(9, 2, 'com.studennrol.testscripts.SearchPageTest')
-data.setCell(9, 3, 3390);
+data.setCell(9, 1, 'editBtnVerify')
+data.setCell(9, 2, 'com.studennrol.testscripts.EmployeesPageTest')
+data.setCell(9, 3, 6177);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verrifyPageUrl')
-data.setCell(10, 2, 'com.studennrol.testscripts.EmployeeUpdatePageTest')
-data.setCell(10, 3, 3047);
+data.setCell(10, 1, 'deleteBtnVerify')
+data.setCell(10, 2, 'com.studennrol.testscripts.EmployeesPageTest')
+data.setCell(10, 3, 6163);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyPageUrl')
+data.setCell(11, 2, 'com.studennrol.testscripts.ApprovalPageTest')
+data.setCell(11, 3, 5347);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verrifyPageUrl')
+data.setCell(12, 2, 'com.studennrol.testscripts.EmployeeUpdatePageTest')
+data.setCell(12, 3, 4071);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyBtnVisibility')
+data.setCell(13, 2, 'com.studennrol.testscripts.LogoutPageTest')
+data.setCell(13, 3, 3331);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -415,18 +579,11 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">5 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.studennrol.testscripts.EmployeeUpdatePageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">onSetup</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.studennrol.testscripts.LogoutPageTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">onSetup</span>
                 <br/>
@@ -440,7 +597,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.studennrol.testscripts.SearchPageTest</span>
+              <span class="ignored-class-name">com.studennrol.testscripts.LogoutPageTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">onSetup</span>
                 <br/>
@@ -468,62 +625,79 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifyValidLogin</span>
-                <span class="method-start">29786 ms</span>
+                <span class="method-start">29895 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.studennrol.testscripts.ApprovalPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyPageUrl</span>
-                <span class="method-start">39554 ms</span>
+                <span class="method-start">52243 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">approveBtnverify</span>
-                <span class="method-start">44797 ms</span>
+                <span class="method-start">57596 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteBtnVerify</span>
-                <span class="method-start">50933 ms</span>
+                <span class="method-start">63956 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.studennrol.testscripts.EmployeesPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyEmployeesPage</span>
-                <span class="method-start">57109 ms</span>
+                <span class="method-start">70305 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteBtnVerify</span>
-                <span class="method-start">63370 ms</span>
+                <span class="method-start">76583 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">editBtnVerify</span>
-                <span class="method-start">69854 ms</span>
+                <span class="method-start">82748 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.studennrol.testscripts.EmployeeUpdatePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verrifyPageUrl</span>
-                <span class="method-start">76060 ms</span>
+                <span class="method-start">88933 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">updateBtnVerifyRollnull</span>
-                <span class="method-start">79117 ms</span>
+                <span class="method-name">updateBtnVerifyRollnull1</span>
+                <span class="method-start">93012 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.studennrol.testscripts.SearchPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">verifysearchUrl</span>
-                <span class="method-start">92425 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateBtnVerifyemailnull</span>
+                <span class="method-start">103987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateBtnVerifyNamenull</span>
+                <span class="method-start">137693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateBtnVerifyallfieldnull</span>
+                <span class="method-start">170884 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateBtnVerifvalid</span>
+                <span class="method-start">203941 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.studennrol.testscripts.LogoutPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyBtnVisibility</span>
-                <span class="method-start">95822 ms</span>
+                <span class="method-start">237237 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

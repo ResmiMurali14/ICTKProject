@@ -24,48 +24,43 @@ public class LoginPage extends TestBase
     @FindBy(xpath="//input[@name='sign-in']")
     WebElement Signin;
 
-    @FindBy(xpath="//a[@routerlink='employee-approval']")
-	WebElement empApprovalLink;
-    @FindBy(xpath="//a[@routerlink='employees']")
-  	WebElement employeesLink;
-     @FindBy(xpath="//a[@routerlink='home']")
-	WebElement adminHomeLink;
     
-
-	public LoginPage(){
+  
+	public LoginPage()
+	{
         
         //This initElements method will create all WebElements
         PageFactory.initElements(driver, this);
     }
-   public void login() {
+   public void login() 
+   {
       loginBtn.click();
 
 }
-
-	public void setUserName(String strUserName) {
+    //set username in textbox
+	public void setUserName(String strUserName)
+	{
 		// TODO Auto-generated method stub
 		username.sendKeys( strUserName);     
     }
 
 	//Set password in password textbox
     
-	public void setPassword(String strPassword) {
+	public void setPassword(String strPassword) 
+	{
 		// TODO Auto-generated method stub
 		password.sendKeys(strPassword);
 		
 	}
 	
+	//Selecting Login as Admin
+	public void dropdown() 
+	{
 	
-	public void dropdown() {
-	
-//dropdown1 created as instance variable and pass the element value(dropdown) to the dropdown1		
-Select dropdown1 = new Select(dropdown);
-dropdown1.selectByValue("admin");
+    //dropdown1 created as instance variable and pass the element value(dropdown) to the dropdown1		
+    Select dropdown1 = new Select(dropdown);
+    dropdown1.selectByValue("admin");
 	}
-	
-
-	
-	
 	
 	
 	public void Signin() {
@@ -86,22 +81,7 @@ dropdown1.selectByValue("admin");
 			alert.accept();
 			
 	}
-	    public void employeeRequestkBtn()
-			{
-	    	empApprovalLink.click();
-				
-				
-			}
 	    
-	    
-	    public EmployeesPage employeesPageLink()
-	    {
-		
-	    	employeesLink.click();
-	    	return new EmployeesPage();
-	    	
-	    	
-	    }
 	}
 
 

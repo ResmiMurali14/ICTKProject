@@ -12,7 +12,7 @@ public class ApprovalPageTest extends TestBase
   ApprovalPage objApprovePage;
   
 
-
+   //Method to verify Page URL
     @Test(priority=1)
 
     public void verifyPageUrl() throws Exception
@@ -25,6 +25,8 @@ public class ApprovalPageTest extends TestBase
 	     Assert.assertEquals(expectedurl, actualurl);
 	     Thread.sleep(2000);
 	  }
+    
+    // To Accept Employee request
 
     @Test(priority=2)
     public void approveBtnverify() throws Exception
@@ -33,6 +35,8 @@ public class ApprovalPageTest extends TestBase
          Thread.sleep(3000);
          objApprovePage.approveBtnClick();
       }
+    
+    //To Reject employee Request
     @Test(priority=3)
     public void deleteBtnVerify() throws Exception
       {
@@ -43,10 +47,6 @@ public class ApprovalPageTest extends TestBase
     	
        }
       
-	
-	
-	
-
 }
 
 

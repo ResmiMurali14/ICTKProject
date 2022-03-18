@@ -1,7 +1,5 @@
 package com.studennrol.testscripts;
 
-import java.io.IOException;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -29,18 +27,12 @@ public class LoginPageTest extends TestBase
 	String actualurl =driver.getCurrentUrl();
 	Assert.assertEquals(expectedurl,actualurl);
 	Thread.sleep(2000);
-	String username = "admin";
-	String password = "Admin123";
+	String username = ExcelUtility.getCellData(1, 0);
+	String password = ExcelUtility.getCellData(1, 1);
 	objLogin.setUserName(username);
 	objLogin.setPassword(password);
 	objLogin.dropdown();
 	objLogin.Signin();
-	//Thread.sleep(2000);
-	//employeeRequestkBtn();
-	 //objLogin.employeesPageLink();
-	 
- 
-	
-	 
+	Thread.sleep(2000); 
 	}
 }

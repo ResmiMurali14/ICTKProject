@@ -43,6 +43,7 @@ public class ApprovalPage extends TestBase
 			e.printStackTrace();
 		
 		}
+		//clicking "OK" on AlertBox
 		Alert alert=driver.switchTo().alert();
 		alert.accept();
 	}

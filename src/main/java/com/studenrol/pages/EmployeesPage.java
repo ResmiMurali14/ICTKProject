@@ -15,8 +15,10 @@ public class EmployeesPage extends TestBase
 	
 	@FindBy(xpath="//a[@routerlink='employees']")
 	WebElement employeeLink;
+	//ul[1] selecting 1st Employee button[1] is edit button
 	@FindBy(xpath="//div[@class='page']/ul[1]//descendant::button[1]")
 	WebElement editBtn;
+	//button[2] is selecting the delete Button
 	@FindBy(xpath="//div[@class='page']/ul[7]//descendant::button[2]")
 	WebElement deleteBtn;
 	JavascriptExecutor je=(JavascriptExecutor)driver;
@@ -27,16 +29,15 @@ public class EmployeesPage extends TestBase
 		
 		PageFactory.initElements(driver, this);
 	}
-     
+     //for verifying URL
 	public void employeeClick()
 	{
 		
 		employeeLink.click();
 
-		
 	}
 	
-	
+	//clicking Edit Button,it redirect to the EmployeUpdate Page
 	public void editBtnCheck() throws Exception
 	{
 		try {

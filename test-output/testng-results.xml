@@ -1,70 +1,368 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="16" passed="11" failed="0" skipped="0">
+<testng-results ignored="4" total="18" passed="10" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-16T16:46:59 IST" name="Suite" finished-at="2022-03-16T16:48:38 IST" duration-ms="99241">
+  <suite started-at="2022-03-18T10:46:23 IST" name="Suite" finished-at="2022-03-18T10:50:24 IST" duration-ms="240576">
     <groups>
     </groups>
-    <test started-at="2022-03-16T16:46:59 IST" name="Test" finished-at="2022-03-16T16:48:38 IST" duration-ms="99241">
+    <test started-at="2022-03-18T10:46:23 IST" name="Test" finished-at="2022-03-18T10:50:24 IST" duration-ms="240576">
       <class name="com.studennrol.testscripts.LogoutPageTest">
-        <test-method signature="verifyBtnVisibility()[pri:1, instance:com.studennrol.testscripts.LogoutPageTest@660acfb]" started-at="2022-03-16T16:48:35 IST" name="verifyBtnVisibility" finished-at="2022-03-16T16:48:38 IST" duration-ms="3397" status="PASS">
+        <test-method signature="verifyBtnVisibility()[pri:1, instance:com.studennrol.testscripts.LogoutPageTest@5d908d47]" started-at="2022-03-18T10:50:20 IST" name="verifyBtnVisibility" finished-at="2022-03-18T10:50:24 IST" duration-ms="3331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBtnVisibility -->
       </class> <!-- com.studennrol.testscripts.LogoutPageTest -->
       <class name="com.studennrol.testscripts.ApprovalPageTest">
-        <test-method signature="verifyPageUrl()[pri:1, instance:com.studennrol.testscripts.ApprovalPageTest@37313c65]" started-at="2022-03-16T16:47:38 IST" name="verifyPageUrl" finished-at="2022-03-16T16:47:43 IST" duration-ms="5240" status="PASS">
+        <test-method signature="verifyPageUrl()[pri:1, instance:com.studennrol.testscripts.ApprovalPageTest@798162bc]" started-at="2022-03-18T10:47:15 IST" name="verifyPageUrl" finished-at="2022-03-18T10:47:21 IST" duration-ms="5347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageUrl -->
-        <test-method signature="approveBtnverify()[pri:2, instance:com.studennrol.testscripts.ApprovalPageTest@37313c65]" started-at="2022-03-16T16:47:43 IST" name="approveBtnverify" finished-at="2022-03-16T16:47:50 IST" duration-ms="6132" status="PASS">
+        <test-method signature="approveBtnverify()[pri:2, instance:com.studennrol.testscripts.ApprovalPageTest@798162bc]" started-at="2022-03-18T10:47:21 IST" name="approveBtnverify" finished-at="2022-03-18T10:47:27 IST" duration-ms="6358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- approveBtnverify -->
-        <test-method signature="deleteBtnVerify()[pri:3, instance:com.studennrol.testscripts.ApprovalPageTest@37313c65]" started-at="2022-03-16T16:47:50 IST" name="deleteBtnVerify" finished-at="2022-03-16T16:47:56 IST" duration-ms="6174" status="PASS">
+        <test-method signature="deleteBtnVerify()[pri:3, instance:com.studennrol.testscripts.ApprovalPageTest@798162bc]" started-at="2022-03-18T10:47:27 IST" name="deleteBtnVerify" finished-at="2022-03-18T10:47:33 IST" duration-ms="6347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBtnVerify -->
       </class> <!-- com.studennrol.testscripts.ApprovalPageTest -->
       <class name="com.studennrol.testscripts.EmployeesPageTest">
-        <test-method signature="verifyEmployeesPage()[pri:1, instance:com.studennrol.testscripts.EmployeesPageTest@465232e9]" started-at="2022-03-16T16:47:56 IST" name="verifyEmployeesPage" finished-at="2022-03-16T16:48:02 IST" duration-ms="6256" status="PASS">
+        <test-method signature="verifyEmployeesPage()[pri:1, instance:com.studennrol.testscripts.EmployeesPageTest@1df8da7a]" started-at="2022-03-18T10:47:33 IST" name="verifyEmployeesPage" finished-at="2022-03-18T10:47:40 IST" duration-ms="6257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEmployeesPage -->
-        <test-method signature="deleteBtnVerify()[pri:2, instance:com.studennrol.testscripts.EmployeesPageTest@465232e9]" started-at="2022-03-16T16:48:02 IST" name="deleteBtnVerify" finished-at="2022-03-16T16:48:09 IST" duration-ms="6482" status="PASS">
+        <test-method signature="deleteBtnVerify()[pri:2, instance:com.studennrol.testscripts.EmployeesPageTest@1df8da7a]" started-at="2022-03-18T10:47:40 IST" name="deleteBtnVerify" finished-at="2022-03-18T10:47:46 IST" duration-ms="6163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBtnVerify -->
-        <test-method signature="editBtnVerify()[pri:2, instance:com.studennrol.testscripts.EmployeesPageTest@465232e9]" started-at="2022-03-16T16:48:09 IST" name="editBtnVerify" finished-at="2022-03-16T16:48:15 IST" duration-ms="6191" status="PASS">
+        <test-method signature="editBtnVerify()[pri:2, instance:com.studennrol.testscripts.EmployeesPageTest@1df8da7a]" started-at="2022-03-18T10:47:46 IST" name="editBtnVerify" finished-at="2022-03-18T10:47:52 IST" duration-ms="6177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editBtnVerify -->
       </class> <!-- com.studennrol.testscripts.EmployeesPageTest -->
-      <class name="com.studennrol.testscripts.SearchPageTest">
-        <test-method signature="verifysearchUrl()[pri:1, instance:com.studennrol.testscripts.SearchPageTest@7486b455]" started-at="2022-03-16T16:48:31 IST" name="verifysearchUrl" finished-at="2022-03-16T16:48:35 IST" duration-ms="3390" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifysearchUrl -->
-      </class> <!-- com.studennrol.testscripts.SearchPageTest -->
       <class name="com.studennrol.testscripts.LoginPageTest">
-        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.studennrol.testscripts.LoginPageTest@38145825]" started-at="2022-03-16T16:46:59 IST" name="onSetup" finished-at="2022-03-16T16:47:28 IST" duration-ms="29705" status="PASS">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.studennrol.testscripts.LoginPageTest@1b66c0fb]" started-at="2022-03-18T10:46:23 IST" name="onSetup" finished-at="2022-03-18T10:46:53 IST" duration-ms="29847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onSetup -->
-        <test-method signature="verifyValidLogin()[pri:1, instance:com.studennrol.testscripts.LoginPageTest@38145825]" started-at="2022-03-16T16:47:28 IST" name="verifyValidLogin" finished-at="2022-03-16T16:47:38 IST" duration-ms="9742" status="PASS">
+        <test-method signature="verifyValidLogin()[pri:1, instance:com.studennrol.testscripts.LoginPageTest@1b66c0fb]" started-at="2022-03-18T10:46:53 IST" name="verifyValidLogin" finished-at="2022-03-18T10:47:15 IST" duration-ms="22274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyValidLogin -->
       </class> <!-- com.studennrol.testscripts.LoginPageTest -->
       <class name="com.studennrol.testscripts.EmployeeUpdatePageTest">
-        <test-method signature="verrifyPageUrl()[pri:1, instance:com.studennrol.testscripts.EmployeeUpdatePageTest@23941fb4]" started-at="2022-03-16T16:48:15 IST" name="verrifyPageUrl" finished-at="2022-03-16T16:48:18 IST" duration-ms="3047" status="PASS">
+        <test-method signature="verrifyPageUrl()[pri:1, instance:com.studennrol.testscripts.EmployeeUpdatePageTest@660acfb]" started-at="2022-03-18T10:47:52 IST" name="verrifyPageUrl" finished-at="2022-03-18T10:47:56 IST" duration-ms="4071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verrifyPageUrl -->
-        <test-method signature="updateBtnVerifyRollnull()[pri:3, instance:com.studennrol.testscripts.EmployeeUpdatePageTest@23941fb4]" started-at="2022-03-16T16:48:18 IST" name="updateBtnVerifyRollnull" finished-at="2022-03-16T16:48:31 IST" duration-ms="13305" status="PASS">
+        <test-method signature="updateBtnVerifyRollnull1()[pri:2, instance:com.studennrol.testscripts.EmployeeUpdatePageTest@660acfb]" started-at="2022-03-18T10:47:56 IST" name="updateBtnVerifyRollnull1" finished-at="2022-03-18T10:48:07 IST" duration-ms="10973" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateBtnVerifyRollnull -->
+        </test-method> <!-- updateBtnVerifyRollnull1 -->
+        <test-method signature="updateBtnVerifyemailnull()[pri:3, instance:com.studennrol.testscripts.EmployeeUpdatePageTest@660acfb]" started-at="2022-03-18T10:48:07 IST" name="updateBtnVerifyemailnull" finished-at="2022-03-18T10:48:41 IST" duration-ms="33670" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='name']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:46'
+System info: host: 'LAPTOP-M5JHVHLN', ip: '192.168.95.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3961e780773bd324c5d25ede2fd2b6
+*** Element info: {Using=xpath, value=//input[@name='name']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='name']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:46'
+System info: host: 'LAPTOP-M5JHVHLN', ip: '192.168.95.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3961e780773bd324c5d25ede2fd2b6
+*** Element info: {Using=xpath, value=//input[@name='name']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.clear(Unknown Source)
+at com.studenrol.pages.EmployeeUpdatePage.setEmpName(EmployeeUpdatePage.java:31)
+at com.studennrol.testscripts.EmployeeUpdatePageTest.updateBtnVerifyemailnull(EmployeeUpdatePageTest.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBtnVerifyemailnull -->
+        <test-method signature="updateBtnVerifyNamenull()[pri:4, instance:com.studennrol.testscripts.EmployeeUpdatePageTest@660acfb]" started-at="2022-03-18T10:48:41 IST" name="updateBtnVerifyNamenull" finished-at="2022-03-18T10:49:14 IST" duration-ms="33184" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='name']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:46'
+System info: host: 'LAPTOP-M5JHVHLN', ip: '192.168.95.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3961e780773bd324c5d25ede2fd2b6
+*** Element info: {Using=xpath, value=//input[@name='name']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='name']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:46'
+System info: host: 'LAPTOP-M5JHVHLN', ip: '192.168.95.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3961e780773bd324c5d25ede2fd2b6
+*** Element info: {Using=xpath, value=//input[@name='name']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.clear(Unknown Source)
+at com.studenrol.pages.EmployeeUpdatePage.setEmpName(EmployeeUpdatePage.java:31)
+at com.studennrol.testscripts.EmployeeUpdatePageTest.updateBtnVerifyNamenull(EmployeeUpdatePageTest.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBtnVerifyNamenull -->
+        <test-method signature="updateBtnVerifyallfieldnull()[pri:5, instance:com.studennrol.testscripts.EmployeeUpdatePageTest@660acfb]" started-at="2022-03-18T10:49:14 IST" name="updateBtnVerifyallfieldnull" finished-at="2022-03-18T10:49:47 IST" duration-ms="33054" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='name']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:46'
+System info: host: 'LAPTOP-M5JHVHLN', ip: '192.168.95.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3961e780773bd324c5d25ede2fd2b6
+*** Element info: {Using=xpath, value=//input[@name='name']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='name']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:46'
+System info: host: 'LAPTOP-M5JHVHLN', ip: '192.168.95.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3961e780773bd324c5d25ede2fd2b6
+*** Element info: {Using=xpath, value=//input[@name='name']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.clear(Unknown Source)
+at com.studenrol.pages.EmployeeUpdatePage.setEmpNameNull(EmployeeUpdatePage.java:64)
+at com.studennrol.testscripts.EmployeeUpdatePageTest.updateBtnVerifyallfieldnull(EmployeeUpdatePageTest.java:89)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBtnVerifyallfieldnull -->
+        <test-method signature="updateBtnVerifvalid()[pri:6, instance:com.studennrol.testscripts.EmployeeUpdatePageTest@660acfb]" started-at="2022-03-18T10:49:47 IST" name="updateBtnVerifvalid" finished-at="2022-03-18T10:50:20 IST" duration-ms="33276" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='name']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:46'
+System info: host: 'LAPTOP-M5JHVHLN', ip: '192.168.95.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3961e780773bd324c5d25ede2fd2b6
+*** Element info: {Using=xpath, value=//input[@name='name']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='name']"}
+  (Session info: chrome=99.0.4844.74)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:46'
+System info: host: 'LAPTOP-M5JHVHLN', ip: '192.168.95.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.74, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b3961e780773bd324c5d25ede2fd2b6
+*** Element info: {Using=xpath, value=//input[@name='name']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.clear(Unknown Source)
+at com.studenrol.pages.EmployeeUpdatePage.setEmpName(EmployeeUpdatePage.java:31)
+at com.studennrol.testscripts.EmployeeUpdatePageTest.updateBtnVerifvalid(EmployeeUpdatePageTest.java:108)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBtnVerifvalid -->
       </class> <!-- com.studennrol.testscripts.EmployeeUpdatePageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
